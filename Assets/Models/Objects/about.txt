@@ -1,0 +1,1 @@
+Interactive objects, such as elements the player can pick up or move

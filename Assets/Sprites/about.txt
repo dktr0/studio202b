@@ -1,0 +1,1 @@
+Sprites are used to store 2D flat graphics like menus and User Interface
