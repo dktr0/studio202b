@@ -1,0 +1,1 @@
+Characters that may be the player, or enemies, or NPCs that help the player (eg: AIs or aliens)

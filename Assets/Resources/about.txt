@@ -1,0 +1,1 @@
+This folder will be used for storing resources loaded at runtime (Eg: projectiles, effects, pickups) that are spawned
