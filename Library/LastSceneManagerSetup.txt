@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/2ndfloor.unity
-=======
 - path: Assets/Scenes/David Scene.unity
->>>>>>> 54eb16a06ec043274fa5f05354db91ef0fac8eef
   isLoaded: 1
   isActive: 1
