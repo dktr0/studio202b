@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/Scenes/Zaima TSH2ndFloor.unity
+  isLoaded: 1
+  isActive: 1
