@@ -1,0 +1,1 @@
+3d model materials that give models a texture with special FX like bump mapping and transparency
