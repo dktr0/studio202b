@@ -97,6 +97,7 @@ ModelImporter:
     100178: wall_004
     100180: wall_005
     100182: wall_006
+    100184: Plane
     400000: //RootNode
     400002: Cube_000
     400004: Cube_001
@@ -189,6 +190,7 @@ ModelImporter:
     400178: wall_004
     400180: wall_005
     400182: wall_006
+    400184: Plane
     2300000: Cube_000
     2300002: Cube_001
     2300004: Cube_002
@@ -280,6 +282,7 @@ ModelImporter:
     2300176: wall_004
     2300178: wall_005
     2300180: wall_006
+    2300182: Plane
     3300000: Cube_000
     3300002: Cube_001
     3300004: Cube_002
@@ -371,6 +374,7 @@ ModelImporter:
     3300176: wall_004
     3300178: wall_005
     3300180: wall_006
+    3300182: Plane
     4300000: Cube_014
     4300002: Cube_000
     4300004: Cube_096
@@ -462,6 +466,7 @@ ModelImporter:
     4300176: wall_006
     4300178: wall
     4300180: floor
+    4300182: Plane
     7400000: Default Take
     9500000: //RootNode
   materials:
