@@ -5,6 +5,7 @@
 //Trigger conditions
 var requiresItem = false; //Does this require an item?
 var itemRequired = "water"; //The item to use
+var numRequired = 1; //How many are required?
 var useItem = false; //Use up the item when clicked?
 
 var triggerOnce = true; //Only happen once?
@@ -89,7 +90,7 @@ function performClick() {
 function performTrigger(skipCheck) {
     if (!triggerOnce || !wasTriggered) {
         //We haven't been triggered or can be triggered multiple times
-        if (!requiresItem || dataScript.haveItem(itemRequired)) {
+        if (!requiresItem || (dataScript.haveItem(itemRequired) && numRequired <= 1) || (dataScript.haveItem(itemRequired) && numRequired <= dataScript.getNumOfItem(itemRequired)) || skipCheck) {
             //We have the item or don't need it!
             if (triggerAnimation != null) {
                 //We have an animation to trigger!
