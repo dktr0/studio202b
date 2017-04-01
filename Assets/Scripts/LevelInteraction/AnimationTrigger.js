@@ -18,7 +18,8 @@ private var dataScript : PlayerDataHolder; //The actual script holding our betwe
 
 var requiresItem = false; //Requires an item?
 var item = "keycard"; //The item we require
-var removeItem = false; //Remove the item from the player?
+var numRequired = 1; //How many are required?
+var removeItem = false; //Remove the item from the player? Only removes one!
 
 //Sound specific code
 var activatedSound : AudioSource;
@@ -61,8 +62,8 @@ function performTrigger(skipCheck) {
     if (!wasTriggered || !triggerOnce) {
         //We can trigger! Maybe! Check if we need inventory
 
-        if (!requiresItem || dataScript.haveItem(item) || skipCheck) {
-            //We either don't need items or we have the item in question
+        if (!requiresItem || (dataScript.haveItem(item) && numRequired <= 1) || (dataScript.haveItem(item) && numRequired <= dataScript.getNumOfItem(item)) || skipCheck) {
+            //We either don't need items or we have the item(s) in question
 
             m_Anim.SetBool(animBool, setBoolTrue);
 
