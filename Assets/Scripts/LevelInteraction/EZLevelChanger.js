@@ -14,6 +14,8 @@ var dataScript : PlayerDataHolder; //The actual script holding our between-level
 var objEulerAngle : Vector3; //The Euler Angle of the object
 var sendAngle = true; //Send our angle?
 
+var triggerChange = false; //Trigger the changeover?
+
 function Start () {
     if (levelName == "") {
         Debug.Log("No level name entered!");
@@ -31,6 +33,18 @@ function Update() {
 
             dataScript = dataObj.GetComponent.<PlayerDataHolder>();
         }
+    }
+
+    if (triggerChange) {
+        //Triggering a change removes the forces
+        forcePosition = false;
+        sendAngle = false;
+
+        dataScript.ignoreSpawnPoint = true;
+        dataScript.ignoreEulerAngle = true;
+
+        //Now change scene
+        SceneManager.LoadScene(levelName);
     }
 }
 
