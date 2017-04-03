@@ -19,14 +19,17 @@ ModelImporter:
     2300002: Plane_001
     2300004: Sphere
     2300006: Torus_002
+    2300008: //RootNode
     3300000: Plane
     3300002: Plane_001
     3300004: Sphere
     3300006: Torus_002
+    3300008: //RootNode
     4300000: Plane_001
     4300002: Sphere
     4300004: Torus_002
     4300006: Plane
+    4300008: Cube
     7400000: Default Take
     9500000: //RootNode
   materials:
