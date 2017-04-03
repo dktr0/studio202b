@@ -1,15 +1,27 @@
 fileFormatVersion: 2
-guid: 056597a17bc298e49ae9a97d34f09548
-timeCreated: 1491197722
+guid: 423f9531da685bc49b209fad4f329e97
+timeCreated: 1491195350
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: speaker_base
+    100004: speaker_pole
+    100006: speaker_stand_top
     400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Plane
+    400002: speaker_base
+    400004: speaker_pole
+    400006: speaker_stand_top
+    2300000: speaker_base
+    2300002: speaker_pole
+    2300004: speaker_stand_top
+    3300000: speaker_base
+    3300002: speaker_pole
+    3300004: speaker_stand_top
+    4300000: speaker_base
+    4300002: speaker_stand_top
+    4300004: speaker_pole
     7400000: Default Take
     9500000: //RootNode
   materials:

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 056597a17bc298e49ae9a97d34f09548
-timeCreated: 1491197722
+guid: d874fdfc71433cf44a99773710edc3ad
+timeCreated: 1491195923
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Plane
+    4300000: speaker_sound_lab
     7400000: Default Take
     9500000: //RootNode
   materials:
