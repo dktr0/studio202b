@@ -1,49 +1,13 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: a7a09c015c22d274eaf4ba2a1b7214f5
-timeCreated: 1490838402
-=======
-guid: c26f929e4ef42a54ea106c6e7335f9fa
-timeCreated: 1491240281
->>>>>>> 25c13a7eca08a946386a27aa26e0bdc7070f1e44
-licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Plane
-    100004: Plane_001
-    100006: Sphere
-    100008: Torus_002
     400000: //RootNode
-    400002: Plane
-    400004: Plane_001
-    400006: Sphere
-    400008: Torus_002
-    2300000: Plane
-    2300002: Plane_001
-    2300004: Sphere
-    2300006: Torus_002
-<<<<<<< HEAD
-=======
-    2300008: //RootNode
->>>>>>> 25c13a7eca08a946386a27aa26e0bdc7070f1e44
-    3300000: Plane
-    3300002: Plane_001
-    3300004: Sphere
-    3300006: Torus_002
-<<<<<<< HEAD
-=======
-    3300008: //RootNode
->>>>>>> 25c13a7eca08a946386a27aa26e0bdc7070f1e44
-    4300000: Plane_001
-    4300002: Sphere
-    4300004: Torus_002
-    4300006: Plane
-<<<<<<< HEAD
-=======
-    4300008: Cube
->>>>>>> 25c13a7eca08a946386a27aa26e0bdc7070f1e44
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cube
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -70,7 +34,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

@@ -1,75 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 7b829f1d3a9406947b849a9a63b1ee00
-ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Cube
-    100002: Cube_001
-    100004: Cube_002
-    100006: Cube_003
-    100008: Cube_018
-    100010: Cylinder
-    100012: //RootNode
-    100014: Door_Frame
-    100016: Handle
-    100018: Handle_Bar
-    100020: Handle_Bottom
-    100022: Handle_Top
-    100024: Lock
-    400000: Cube
-    400002: Cube_001
-    400004: Cube_002
-    400006: Cube_003
-    400008: Cube_018
-    400010: Cylinder
-    400012: //RootNode
-    400014: Door_Frame
-    400016: Handle
-    400018: Handle_Bar
-    400020: Handle_Bottom
-    400022: Handle_Top
-    400024: Lock
-    2300000: Cube
-    2300002: Cube_001
-    2300004: Cube_002
-    2300006: Cube_003
-    2300008: Cube_018
-    2300010: Cylinder
-    2300012: Door_Frame
-    2300014: Handle
-    2300016: Handle_Bar
-    2300018: Handle_Bottom
-    2300020: Handle_Top
-    2300022: Lock
-    3300000: Cube
-    3300002: Cube_001
-    3300004: Cube_002
-    3300006: Cube_003
-    3300008: Cube_018
-    3300010: Cylinder
-    3300012: Door_Frame
-    3300014: Handle
-    3300016: Handle_Bar
-    3300018: Handle_Bottom
-    3300020: Handle_Top
-    3300022: Lock
-    4300000: Cube_003
-    4300002: Cube_001
-    4300004: Cylinder
-    4300006: Cube_002
-    4300008: Cube
-    4300010: Cube_018
-    4300012: Lock
-    4300014: Handle_Bar
-    4300016: Handle_Top
-    4300018: Handle
-    4300020: Handle_Bottom
-    4300022: Door_Frame
-=======
-guid: 5f7d857d88837f84988a2aab67a97eca
-timeCreated: 1491240003
-licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -105,7 +35,6 @@ ModelImporter:
     4300006: Handle
     4300008: Handle_Bottom
     4300010: Door_Frame
->>>>>>> 25c13a7eca08a946386a27aa26e0bdc7070f1e44
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -132,11 +61,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-<<<<<<< HEAD
     globalScale: 0
-=======
-    globalScale: 1
->>>>>>> 25c13a7eca08a946386a27aa26e0bdc7070f1e44
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
