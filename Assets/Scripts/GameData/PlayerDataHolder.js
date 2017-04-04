@@ -76,3 +76,44 @@ function useItem(item) {
         }
     }
 }
+
+function getItemsCount() {
+    //Return the number of items we have
+    return inventory.length;
+}
+
+function getOldestItem() {
+    //Return the oldest item
+    if (inventory.length > 0) {
+        return inventory[0];
+    }
+
+    return "";
+}
+
+function getNewestItem() {
+    //Get newest item
+    if (inventory.length > 0) {
+        return inventory[inventory.length - 1];
+    }
+
+    return "";
+}
+
+function getInventory() {
+    //Return the whole inventory object for external sorting / processing
+    return inventory;
+}
+
+function getNumOfItem(item) {
+    //How many of a specific item does a player have?
+    var ans = 0;
+
+    for (var i = 0; i < inventory.length; i++) {
+        if (inventory[i] == item) {
+            ans = ans + 1; //Found another!
+        }
+    }
+
+    return ans;
+}

@@ -7,11 +7,17 @@
 //Trigger conditions
 var requiresItem = false; //Does this require an item?
 var itemRequired = "water"; //The item to use
+var numRequired = 1; //How many are required?
 var useItem = false; //Use up the item when clicked?
 
 var tagDetect = "Untagged"; //The tag to look for
 var triggerOnce = false; //Trigger once?
 var wasTriggered = false; //Was triggered?
+
+//Affect ourselves
+var disableSelf = false; //Disable ourselves?
+var changeSelfTag = false; //Change our tag?
+var selfNewTag = "Untagged"; //The new tag to assign to ourselves
 
 //Affect objects that touch us
 var disableDetected = false; //Disable what we have detected?
@@ -97,7 +103,7 @@ function performTrigger(g : GameObject) {
     if (!triggerOnce || !wasTriggered) {
         //We haven't triggered before or can trigger multiple times?
 
-        if (!requiresItem || dataScript.haveItem(itemRequired)) {
+        if (!requiresItem || (dataScript.haveItem(itemRequired) && numRequired <= 1) || (dataScript.haveItem(itemRequired) && numRequired <= dataScript.getNumOfItem(itemRequired))) {
             //We can trigger!
 
             if (movesObject) {
@@ -176,6 +182,14 @@ function performTrigger(g : GameObject) {
 
             if (disableDetected) {
                 g.SetActive(false); //Disable it
+            }
+
+            if (changeSelfTag) {
+                gameObject.tag = selfNewTag;
+            }
+
+            if (disableSelf) {
+                gameObject.SetActive(false);
             }
         } else {
             if (missingItemSound != null) {
