@@ -59,6 +59,10 @@ ModelImporter:
     100102: Torus_029
     100104: Torus_030
     100106: Torus_031
+    100108: Torus_MeshPart0
+    100110: Torus_MeshPart1
+    100112: Torus_MeshPart2
+    100114: Torus_MeshPart3
     400000: Cube
     400002: Cube_001
     400004: Cube_002
@@ -113,6 +117,10 @@ ModelImporter:
     400102: Torus_029
     400104: Torus_030
     400106: Torus_031
+    400108: Torus_MeshPart0
+    400110: Torus_MeshPart1
+    400112: Torus_MeshPart2
+    400114: Torus_MeshPart3
     2300000: Cube
     2300002: Cube_001
     2300004: Cube_002
@@ -166,6 +174,10 @@ ModelImporter:
     2300100: Torus_029
     2300102: Torus_030
     2300104: Torus_031
+    2300106: Torus_MeshPart0
+    2300108: Torus_MeshPart1
+    2300110: Torus_MeshPart2
+    2300112: Torus_MeshPart3
     3300000: Cube
     3300002: Cube_001
     3300004: Cube_002
@@ -219,6 +231,10 @@ ModelImporter:
     3300100: Torus_029
     3300102: Torus_030
     3300104: Torus_031
+    3300106: Torus_MeshPart0
+    3300108: Torus_MeshPart1
+    3300110: Torus_MeshPart2
+    3300112: Torus_MeshPart3
     4300000: Torus_031
     4300002: Torus_030
     4300004: Torus_029
@@ -272,6 +288,10 @@ ModelImporter:
     4300100: Cube_002
     4300102: Cube_003
     4300104: Cube_004
+    4300106: Torus_MeshPart0
+    4300108: Torus_MeshPart1
+    4300110: Torus_MeshPart2
+    4300112: Torus_MeshPart3
     7400000: Default Take
     9500000: //RootNode
   materials:
