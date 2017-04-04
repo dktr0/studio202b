@@ -1,84 +1,58 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 0e713840093a1b449a9ebf85812c7173
-=======
-guid: ef253c0cd26259847a97ade8681c9b30
-timeCreated: 1491240404
-licenseType: Free
->>>>>>> 25c13a7eca08a946386a27aa26e0bdc7070f1e44
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Cube_MeshPart0
-    100004: Cube_MeshPart1
-    100006: Cube_MeshPart2
-    100008: Cube_MeshPart3
-    100010: Cube_MeshPart4
-    100012: Cube_MeshPart5
-    100014: Cube_MeshPart6
-    100016: Cube_MeshPart7
-    100018: Cube_MeshPart8
-    100020: Cube_MeshPart9
-    100022: Armature
-    100024: Bone
-    100026: Bone_001
-    100028: Bone_002
-    100030: Bone_003
-    100032: Bone_004
-    100034: Bone_005
-    100036: Bone_006
-    100038: Bone_007
-    100040: Bone_008
-    100042: Bone_009
-    100044: Cube
+    100000: Armature
+    100002: //RootNode
+    100004: Bone
+    100006: Bone_001
+    100008: Bone_002
+    100010: Bone_003
+    100012: Bone_004
+    100014: Bone_005
+    100016: Bone_006
+    100018: Bone_007
+    100020: Bone_008
+    100022: Bone_009
+    100024: Cube
+    100026: Cube_MeshPart0
+    100028: Cube_MeshPart1
+    100030: Cube_MeshPart2
+    100032: Cube_MeshPart3
+    100034: Cube_MeshPart4
+    100036: Cube_MeshPart5
+    100038: Cube_MeshPart6
+    100040: Cube_MeshPart7
+    100042: Cube_MeshPart8
+    100044: Cube_MeshPart9
     100046: gold_leaf
-    400000: //RootNode
-    400002: Cube_MeshPart0
-    400004: Cube_MeshPart1
-    400006: Cube_MeshPart2
-    400008: Cube_MeshPart3
-    400010: Cube_MeshPart4
-    400012: Cube_MeshPart5
-    400014: Cube_MeshPart6
-    400016: Cube_MeshPart7
-    400018: Cube_MeshPart8
-    400020: Cube_MeshPart9
-    400022: Armature
-    400024: Bone
-    400026: Bone_001
-    400028: Bone_002
-    400030: Bone_003
-    400032: Bone_004
-    400034: Bone_005
-    400036: Bone_006
-    400038: Bone_007
-    400040: Bone_008
-    400042: Bone_009
-    400044: Cube
+    400000: Armature
+    400002: //RootNode
+    400004: Bone
+    400006: Bone_001
+    400008: Bone_002
+    400010: Bone_003
+    400012: Bone_004
+    400014: Bone_005
+    400016: Bone_006
+    400018: Bone_007
+    400020: Bone_008
+    400022: Bone_009
+    400024: Cube
+    400026: Cube_MeshPart0
+    400028: Cube_MeshPart1
+    400030: Cube_MeshPart2
+    400032: Cube_MeshPart3
+    400034: Cube_MeshPart4
+    400036: Cube_MeshPart5
+    400038: Cube_MeshPart6
+    400040: Cube_MeshPart7
+    400042: Cube_MeshPart8
+    400044: Cube_MeshPart9
     400046: gold_leaf
-    2300000: Cube_MeshPart0
-    2300002: Cube_MeshPart1
-    2300004: Cube_MeshPart2
-    2300006: Cube_MeshPart3
-    2300008: Cube_MeshPart4
-    2300010: Cube_MeshPart5
-    2300012: Cube_MeshPart6
-    2300014: Cube_MeshPart7
-    2300016: Cube_MeshPart8
-    2300018: Cube_MeshPart9
-    2300020: gold_leaf
-    3300000: Cube_MeshPart0
-    3300002: Cube_MeshPart1
-    3300004: Cube_MeshPart2
-    3300006: Cube_MeshPart3
-    3300008: Cube_MeshPart4
-    3300010: Cube_MeshPart5
-    3300012: Cube_MeshPart6
-    3300014: Cube_MeshPart7
-    3300016: Cube_MeshPart8
-    3300018: Cube_MeshPart9
-    3300020: gold_leaf
+    2300000: gold_leaf
+    3300000: gold_leaf
     4300000: Cube_MeshPart0
     4300002: Cube_MeshPart1
     4300004: Cube_MeshPart2
@@ -127,11 +101,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-<<<<<<< HEAD
     globalScale: 0
-=======
-    globalScale: 1
->>>>>>> 25c13a7eca08a946386a27aa26e0bdc7070f1e44
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
