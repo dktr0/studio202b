@@ -1,16 +1,25 @@
 fileFormatVersion: 2
-guid: b4274b70cf8af09449a54fc9f329e4aa
+guid: fe38831f28f47734abe79792b11747a2
+timeCreated: 1491259248
+licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Cube_004
-    4300002: Sound_Box_Window
+    100000: Armature
+    100002: Bone
+    100004: //RootNode
+    100006: Plane
+    400000: Armature
+    400002: Bone
+    400004: //RootNode
+    400006: Plane
+    4300000: Plane
     7400000: Default Take
+    7400002: horizontal_spin
+    7400004: horizontal_swirl
+    7400006: vertical_spin
     9500000: //RootNode
+    13700000: Plane
   materials:
     importMaterials: 1
     materialName: 0
@@ -35,7 +44,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
