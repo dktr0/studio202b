@@ -1,7 +1,5 @@
 fileFormatVersion: 2
-guid: 3f1abca7b7b246a438e2cd068f4c5c86
-timeCreated: 1490837859
-licenseType: Free
+guid: a48b35c08123c6d49ad4720f7b762a1b
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -10,6 +8,7 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cube_018
+    4300002: Sound_foam
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -36,7 +35,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

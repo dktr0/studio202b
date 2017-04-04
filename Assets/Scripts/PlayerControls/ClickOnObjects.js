@@ -9,6 +9,8 @@ var physicsCheck : PhysicsHandGrab; //Make sure we're not carrying things
 var clickDist = 3.0; //Max distance to try clicking?
 var rayMask : LayerMask; //Layer to raycast on
 
+var clickAndHold = false; //Can hold down click?
+
 function Start () {
     if (cameraObj == null) {
         //Try and find the camera
@@ -27,9 +29,10 @@ function Start () {
 }
 
 function Update () {
-    if (Input.GetButton("Fire1")) {
+    if (Input.GetButtonDown("Fire1") || (Input.GetButton("Fire1") && clickAndHold)) {
         //Based on https://docs.unity3d.com/ScriptReference/RaycastHit-collider.html
-	    
+	    //Trigger once! Not click and hold!
+
         if (physicsCheck == null || physicsCheck.carryObjID == -1) {
             //Not carrying anything, we can click!
             var hit: RaycastHit;

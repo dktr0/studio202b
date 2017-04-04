@@ -1,7 +1,5 @@
 fileFormatVersion: 2
-guid: c021c3f48e275c44bacae852d6182f58
-timeCreated: 1490838422
-licenseType: Free
+guid: b4274b70cf8af09449a54fc9f329e4aa
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -10,6 +8,7 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cube_004
+    4300002: Sound_Box_Window
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -36,7 +35,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
