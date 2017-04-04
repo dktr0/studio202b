@@ -46,6 +46,10 @@ var newVelocity : Vector3; //Force velocity to
 var changeObjectTag = false;
 var changeTagTo = "Untagged"; //Change the tag of the object
 
+//Change layer of an object
+var changeObjectLayer = false;
+var changeLayerTo = "Default"; //What layer to put it on?
+
 //Misc object specific code
 var debugNameDetected = false; //Print the name of detected?
 
@@ -157,6 +161,11 @@ function performTrigger(g : GameObject) {
                 g.tag = changeTagTo;
             }
 
+            if (changeObjectLayer) {
+                //Change the layer of the object
+                g.layer = LayerMask.NameToLayer(changeLayerTo);
+            }
+
             if (givesItem && (!haveGiven || !givesOnce)) {
                 dataScript.giveItem(itemGiven); //Give the player an item
 
@@ -175,7 +184,7 @@ function performTrigger(g : GameObject) {
 
             wasTriggered = true; //We have been triggered
 
-            if (activatedSound != null) {
+            if (activatedSound != null && !activatedSound.isPlaying) {
                 //Play an activate sound if we are meant to
                 activatedSound.Play();
             }
@@ -192,7 +201,7 @@ function performTrigger(g : GameObject) {
                 gameObject.SetActive(false);
             }
         } else {
-            if (missingItemSound != null) {
+            if (missingItemSound != null && !missingItemSound.isPlaying) {
                 //Play item missing sound if we are meant to
                 missingItemSound.Play();
             }
