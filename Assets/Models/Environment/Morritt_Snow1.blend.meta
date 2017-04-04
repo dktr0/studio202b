@@ -1,17 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD:Assets/Models/Environment/Morritt_Snow1.blend.meta
 guid: 0edeeeeee7eb14c46ab117a6509a5774
-timeCreated: 1491335125
-=======
-guid: b6a61a5c45a137241b4cf70707a0933d
-timeCreated: 1491335573
-
->>>>>>> 7a6522ec23cc1b0a9f661e3afc73aba127729806:Assets/Models/Objects/FireAxeRCassibo.blend.meta
-licenseType: Free
-=======
-guid: 376042c65c0eb2b44be33b77b6248bec
->>>>>>> 77206766bd16c12d289f1843be4d849fd21ee652
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
