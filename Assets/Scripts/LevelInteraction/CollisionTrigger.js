@@ -46,6 +46,10 @@ var newVelocity : Vector3; //Force velocity to
 var changeObjectTag = false;
 var changeTagTo = "Untagged"; //Change the tag of the object
 
+//Change layer of an object
+var changeObjectLayer = false;
+var changeLayerTo = "Default"; //What layer to put it on?
+
 //Misc object specific code
 var debugNameDetected = false; //Print the name of detected?
 
@@ -155,6 +159,11 @@ function performTrigger(g : GameObject) {
             if (changeObjectTag) {
                 //Change the tag of the object that touched us, could be used to put an item through stages of matter!
                 g.tag = changeTagTo;
+            }
+
+            if (changeObjectLayer) {
+                //Change the layer of the object
+                g.layer = LayerMask.NameToLayer(changeLayerTo);
             }
 
             if (givesItem && (!haveGiven || !givesOnce)) {

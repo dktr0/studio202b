@@ -52,6 +52,10 @@ var newVelocity : Vector3; //Force velocity to
 var changeTagOf : GameObject;
 var changeTagTo = "Untagged"; //Change the tag of the object
 
+//Change layer of an object
+var changeLayerOf : GameObject;
+var changeLayerTo = "Default"; //What layer to put it on?
+
 var printDebugText = ""; //Print to debug log?
 
 private var dataObj : GameObject; //The object we need to get the script from
@@ -152,6 +156,11 @@ function performTrigger(skipCheck) {
             if (changeTagOf != null) {
                 //We have an object to change the tag of!
                 changeTagOf.tag = changeTagTo;
+            }
+
+            if (changeLayerOf != null) {
+                //We have an object to change the layer of!
+                changeLayerOf.layer = LayerMask.NameToLayer(changeLayerTo);
             }
 
             wasTriggered = true; //We have been triggered
