@@ -92,6 +92,7 @@ function performTrigger(skipCheck) {
         //We haven't been triggered or can be triggered multiple times
         if (!requiresItem || (dataScript.haveItem(itemRequired) && numRequired <= 1) || (dataScript.haveItem(itemRequired) && numRequired <= dataScript.getNumOfItem(itemRequired)) || skipCheck) {
             //We have the item or don't need it!
+
             if (triggerAnimation != null) {
                 //We have an animation to trigger!
                 triggerAnimation.performTrigger(trigAnimSkipItemCheck); //Tell the animator to do what it needs to, and whether it needs to do an item check
@@ -155,7 +156,7 @@ function performTrigger(skipCheck) {
 
             wasTriggered = true; //We have been triggered
 
-            if (activatedSound != null) {
+            if (activatedSound != null && !activatedSound.isPlaying) {
                 //Play an activate sound if we are meant to
                 activatedSound.Play();
             }
@@ -171,7 +172,7 @@ function performTrigger(skipCheck) {
             }
         }
         else {
-            if (missingItemSound != null) {
+            if (missingItemSound != null && !missingItemSound.isPlaying) {
                 //Play item missing sound if we are meant to
                 missingItemSound.Play();
             }

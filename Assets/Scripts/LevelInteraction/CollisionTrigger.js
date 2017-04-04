@@ -175,7 +175,7 @@ function performTrigger(g : GameObject) {
 
             wasTriggered = true; //We have been triggered
 
-            if (activatedSound != null) {
+            if (activatedSound != null && !activatedSound.isPlaying) {
                 //Play an activate sound if we are meant to
                 activatedSound.Play();
             }
@@ -192,7 +192,7 @@ function performTrigger(g : GameObject) {
                 gameObject.SetActive(false);
             }
         } else {
-            if (missingItemSound != null) {
+            if (missingItemSound != null && !missingItemSound.isPlaying) {
                 //Play item missing sound if we are meant to
                 missingItemSound.Play();
             }
