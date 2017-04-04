@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 619fbfa3852c6c847ad689f48fcf0f73
+guid: 624e41fa0604e20488f68ce382736bb1
 timeCreated: 1490628366
 licenseType: Free
 ModelImporter:
@@ -16,6 +16,19 @@ ModelImporter:
     100016: Cube_MeshPart7
     100018: Cube_MeshPart8
     100020: Cube_MeshPart9
+    100022: Armature
+    100024: Bone
+    100026: Bone_001
+    100028: Bone_002
+    100030: Bone_003
+    100032: Bone_004
+    100034: Bone_005
+    100036: Bone_006
+    100038: Bone_007
+    100040: Bone_008
+    100042: Bone_009
+    100044: Cube
+    100046: gold_leaf
     400000: //RootNode
     400002: Cube_MeshPart0
     400004: Cube_MeshPart1
@@ -27,6 +40,19 @@ ModelImporter:
     400016: Cube_MeshPart7
     400018: Cube_MeshPart8
     400020: Cube_MeshPart9
+    400022: Armature
+    400024: Bone
+    400026: Bone_001
+    400028: Bone_002
+    400030: Bone_003
+    400032: Bone_004
+    400034: Bone_005
+    400036: Bone_006
+    400038: Bone_007
+    400040: Bone_008
+    400042: Bone_009
+    400044: Cube
+    400046: gold_leaf
     2300000: Cube_MeshPart0
     2300002: Cube_MeshPart1
     2300004: Cube_MeshPart2
@@ -37,6 +63,7 @@ ModelImporter:
     2300014: Cube_MeshPart7
     2300016: Cube_MeshPart8
     2300018: Cube_MeshPart9
+    2300020: gold_leaf
     3300000: Cube_MeshPart0
     3300002: Cube_MeshPart1
     3300004: Cube_MeshPart2
@@ -47,6 +74,7 @@ ModelImporter:
     3300014: Cube_MeshPart7
     3300016: Cube_MeshPart8
     3300018: Cube_MeshPart9
+    3300020: gold_leaf
     4300000: Cube_MeshPart0
     4300002: Cube_MeshPart1
     4300004: Cube_MeshPart2
@@ -57,8 +85,20 @@ ModelImporter:
     4300014: Cube_MeshPart7
     4300016: Cube_MeshPart8
     4300018: Cube_MeshPart9
+    4300020: gold_leaf
     7400000: Default Take
+    7400002: tree_sway
     9500000: //RootNode
+    13700000: Cube_MeshPart0
+    13700002: Cube_MeshPart1
+    13700004: Cube_MeshPart2
+    13700006: Cube_MeshPart3
+    13700008: Cube_MeshPart4
+    13700010: Cube_MeshPart5
+    13700012: Cube_MeshPart6
+    13700014: Cube_MeshPart7
+    13700016: Cube_MeshPart8
+    13700018: Cube_MeshPart9
   materials:
     importMaterials: 1
     materialName: 0
